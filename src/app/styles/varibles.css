@@ -1,0 +1,22 @@
+:root {
+    --animation-duration: 0.4s;
+}
+
+@theme {
+    --color-dark-24: #242731;
+    --color-dark-24en6: #242426; 
+
+    --color-gray-e2: #e2e4e5;
+    --color-gray-b9: #b9b9c3;
+    --color-gray-57: #575f6e;
+
+    --color-gray-79: #79808f;
+    --color-gray-f0:  #f0f2f4;
+    --color-gray-bb: #bbbfc1;
+    --color-gray-cb: #cbcbcb;
+
+    --color-green-34: #34c759;
+    
+    --color-blue-007: #007aff;
+    --color-blue-ef: #eff7ff;
+}

@@ -1,0 +1,11 @@
+.EditField {
+    display: grid;
+    grid-template-columns: 1fr, auto;
+    grid-template-areas: 
+    "number number"
+    "message icon";
+}
+
+.number {
+    grid-area: number;
+}

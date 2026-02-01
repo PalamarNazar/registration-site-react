@@ -1,0 +1,15 @@
+.formInner {
+    grid-template-areas: 
+    "title title"
+    "select field";
+}
+
+.formTitle {
+    grid-area: title;
+}
+.formSelect {
+    grid-area: select;
+}
+.formField {
+    grid-area: field;
+}

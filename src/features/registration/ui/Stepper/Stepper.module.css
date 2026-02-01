@@ -1,0 +1,12 @@
+.blueCircle {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 0.0625rem solid var(--color-gray-b9);
+    border-radius: 100%;
+    background-color: transparent;
+
+    &.isActive {
+        border-color: var(--color-blue-007);
+        background-color: var(--color-blue-007);
+    }
+}

@@ -1,0 +1,15 @@
+.field {
+    position: relative;
+
+    &:not(:has(input:focus, input:not(:placeholder-shown))) {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            translate: 0 -50%;
+            width: 100%;
+            height: 1px;
+            background-color: var(--color-gray-cb);
+        } 
+    }
+}
